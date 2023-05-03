@@ -3,7 +3,7 @@
 
 ?>
 
-<x-app-layout meta-description="Laravel Blog Test Tutorial">
+<x-app-layout :meta-title="$category->title" meta-description="By Category">
 
     <div class="container mx-auto flex flex-wrap py-6">
 

@@ -21,7 +21,7 @@
         </p>
         <p class="pb-2">
 
-            {{ \App\Models\TextWidget::getContent('about-us-sidebar') }}
+            {!!  \App\Models\TextWidget::getContent('about-us-sidebar')  !!}
 
         </p>
         <a href="#"

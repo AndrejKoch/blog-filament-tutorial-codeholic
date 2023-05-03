@@ -77,7 +77,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;class PostContr
             ->orderBy('published_at', 'desc')
             ->paginate(10);
 
-        return view('home', compact('posts'));
+        return view('post.index', compact('posts', 'category'));
     }
 
 }
